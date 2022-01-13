@@ -23,6 +23,10 @@ body{
         height: 60px;
         float:left;
        }
+       .white img, .black img {
+        margin-top: 15%;
+        margin-left: 25%;
+       }
        .white{
            background-color: white;
        }
@@ -40,9 +44,10 @@ body{
 
        #container {
         margin-top:20%;
-        margin-left:10%;
+        margin-left:20%;
         margin-right:10%;
         margin-bottom:5%;
+        
        }
 
        #title {
