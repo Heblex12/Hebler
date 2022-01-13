@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    color: white;
+}
+body table tr{
+    border: 2px solid white;
+    background-color: #b82901
+    ;
+}
+body table tr td.description{
+text-align: center;
+}
