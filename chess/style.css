@@ -18,7 +18,7 @@ body{
     }
 
     .white, .black{
-        border: 1px solid black;
+        border: 1px solid darkred;
         width: 10%;
         height: 60px;
         float:left;
@@ -32,7 +32,7 @@ body{
        }
         
        .black{      
-        background-color:#787878;
+        background-color: darkred;
        }
 
        #footer {
