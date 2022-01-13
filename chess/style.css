@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-    background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+    background-image:url("https://images3.alphacoders.com/223/thumb-1920-22319.jpg");
    }
    
 .row{
@@ -25,7 +25,7 @@ body{
        }
        .white img, .black img {
         margin-top: 15%;
-        margin-left: 25%;
+        margin-left: 20%;
        }
        .white{
            background-color: white;
@@ -57,7 +57,8 @@ body{
         padding:10px;
         margin:0px;
         width:100%;
-        background-color:lightyellow;
+        background-color: darkred;
+        color:white;
         text-align:center; 
         z-index:10;
         font-family: 'JustLettersMedium'; 
