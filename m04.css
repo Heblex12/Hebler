@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #fbfffe;
+    text-align: center;}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("https://3813613da7689a36458f-59765f0efc46ec5119e40f7d9f86653c.ssl.cf2.rackcdn.com/uploaded/t/0e9921606_1583170137_theme-bkgd.jpg");
+    background-size: contain;
+    background-position: right;
+
+}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;
+   
+}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+  
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #6d676e;}
+
+    /* colors */ 
+    #nav {
+        background-color: #1b1b1e;
+    }
+    #feature {
+    background-color: #BF0302;
+    background-image: url("https://photobest1.com/wp-content/uploads/2018/04/red-iphone-wallpaper-01.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    }
+    .column1 {
+    background-color: #c00021;
+    }
+    
+    .column2 {
+        background-color: #a0001c;
+    }
+    
+    .column3 {
+    background-color: #ff002b;
+    }
+
+    #footer {
+    background-color: #800016;
+    }
+    div h1{
+        font-family: UniqueRegular;
+        font-size: 50px;
+        color: #BF0302;
+    }
