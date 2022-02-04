@@ -1,0 +1,59 @@
+div .container {
+    display: flex;
+    flex-direction: column;
+}
+div .content-top {
+    display: flex;
+    margin: auto;
+    width: 20%;
+    flex-direction: column;
+
+
+}
+div .content-rhombus {
+    
+    display: inline-block;
+    margin-left: 45%;
+    height: 100vh;
+
+}
+
+#upLeft {
+float: left;
+
+}
+#downLeft {
+float: left;
+}
+#upRight {
+
+float: left;
+}
+
+#downRight {
+
+float: left;
+}
+.clear {
+clear: both;
+}
+
+.space {
+   
+    color: white;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 30%;
+    
+    background-color: bisque;
+    width: 40%;
+
+}
+
