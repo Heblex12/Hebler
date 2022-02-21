@@ -44,7 +44,7 @@ function validatePhone()
 {
   var phone = document.getElementById("Phone").value;
   
-  if(phone.length >15 || phone=== 'null' || phone==="" || !phone.match(numbers))
+  if(phone.length > 15 || phone.length < 10 ||phone === 'null' || phone==="" || !phone.match(numbers))
     {
        showError("Phone","Invalid phone number");       
        return false;
