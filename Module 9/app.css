@@ -1,0 +1,18 @@
+h1 {
+    color: green;
+    font-size: 200% 
+  } 
+  
+    body {
+      height: 200px;
+      background: beige;
+    }
+    .dot {
+        width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+
+      border-radius: 4px; /* rounds corners */
+      background: blue;
+      position: absolute; 
+    }
