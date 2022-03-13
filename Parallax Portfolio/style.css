@@ -220,6 +220,8 @@ section #text span{
 
   
     }
+    
+}
 
 
 
@@ -266,7 +268,12 @@ section #text span{
             transition: 0.5s;
         }
 
+#header ul {
+     margin-top: -1.5rem;
 
+
+  
+    }
      
 #btn{
   
@@ -295,6 +302,13 @@ section #text{
               z-index: 0;
               transition: 0.5s;
           }
+           
+           #header ul {
+     margin-top: -1.5rem;
+
+
+  
+    }
             }
 
 
