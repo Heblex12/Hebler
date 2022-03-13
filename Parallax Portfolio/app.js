@@ -95,17 +95,118 @@ inputs.forEach((input) => {
 });
 
 
-/*
 
-document.querySelector(".WaterWheel").addEventListener('scroll', function(){
-	current_rotation += 260;
-document.querySelector(".WaterWheel").style.transform = 'rotate(' + current_rotation + 'deg)';
-});
+/* Start of Validation Contact Page */
+document.getElementById("myform").addEventListener("submit", validateForm);
 
-*/
 
-/*
-window.addEventListener('scroll', function(){
-    waterWheel.style.transform = "rotate(90deg)";
-})
-*/
+
+function validateUsername()
+{
+  var username = document.getElementById("Username").value;
+
+  if(!username || username=="null" || username=="" || username.length > 12)
+    {
+        showError("Username","Username is required and cannot be greater than 12 characters");
+       return false;
+    }
+    return true;
+}
+
+
+
+function validateEmail()
+{
+  var userEmail = document.getElementById("Email").value;
+  var atpos = userEmail.indexOf("@");
+  var dotpos = userEmail.lastIndexOf(".");
+  
+  if(!userEmail || atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length)
+    {
+       showError("Email","Invalid email");
+       return false;
+    }
+    return true;
+}
+
+var numbers=/^[0-9]+$/;
+function validatePhone()
+{
+  var phone = document.getElementById("Phone").value;
+  
+  if(phone.length > 15 || phone.length < 10 ||phone === 'null' || phone==="" || !phone.match(numbers))
+    {
+       showError("Phone","Invalid phone number");       
+       return false;
+    }
+    return true;
+}
+
+
+
+
+
+
+
+
+
+function validatePassword()
+{
+  var password = document.getElementById("Password").value;
+
+  if(!password || password=="null" || password=="" || password.length > 7)
+    {
+        showError("Password","Password is required and cannot be greater than 7 characters");
+       return false;
+    }
+    return true;
+}
+
+
+
+
+
+
+
+function showError(element_id, message)
+{
+  var element = document.getElementById(element_id);
+  var error_div = document.createElement('div');
+  error_div.id = element_id+'_error';
+  error_div.className='error';
+  error_div.innerHTML = message;
+  element.parentNode.insertBefore(error_div, element.nextSibling);
+  
+}
+
+function removeElementsByClass(rootElement,className)
+{
+    var elements = rootElement.getElementsByClassName(className);
+    while(elements.length > 0)
+    {
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+}
+
+function removeErrorMessages()
+{
+  removeElementsByClass(document.getElementById('myform'), 'error');
+}
+
+
+function validateForm(event)
+{
+    removeErrorMessages();
+    if (validateUsername() &&
+        validateEmail() &&
+        validatePhone()
+        ) 
+    {
+        return true;
+    } 
+    else 
+    {
+        event.preventDefault();
+        return false;
+    }
+}
