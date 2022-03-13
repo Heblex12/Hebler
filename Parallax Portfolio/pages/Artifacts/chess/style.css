@@ -1,0 +1,69 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image:url("https://images3.alphacoders.com/223/thumb-1920-22319.jpg");
+   }
+   
+.row{
+    position:relative;
+    margin-left:10%;
+    margin-right:10%;
+   }
+
+   .clear {
+    clear:both;
+    }
+
+    .white, .black{
+        border: 1px solid darkred;
+        width: 10%;
+        height: 60px;
+        float:left;
+       }
+       .white img, .black img {
+        margin-top: 15%;
+        margin-left: 20%;
+       }
+       .white{
+           background-color: white;
+       }
+        
+       .black{      
+        background-color: darkred;
+       }
+
+       #footer {
+
+        padding: 10px;
+        margin:10px;
+        text-align: center;
+        background-color: white;
+       }
+
+       #container {
+        margin-top:20%;
+        margin-left:20%;
+        margin-right:10%;
+        margin-bottom:5%;
+        
+       }
+
+       #title {
+        position:fixed;
+        top:0px;
+        left:0px; 
+        padding:10px;
+        margin:0px;
+        width:100%;
+        background-color: darkred;
+        color:white;
+        text-align:center; 
+        z-index:10;
+        font-family: 'JustLettersMedium'; 
+        font-weight: normal; 
+        font-style: normal; 
+        font-size:36px;
+       }

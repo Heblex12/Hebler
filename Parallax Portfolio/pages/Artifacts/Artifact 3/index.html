@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artifact 3 - Rhombus Example">
+    <link rel="stylesheet" type="text/css" href="app.css"/>
+
+    <title>Artifact 3 - Rhombus</title>
+</head>
+<body>
+<div class="container">
+    <div class="content-top">
+    
+    <label>What is the size of Rhombus?</label><br>
+<input type="text" id="rHeight" value="5" size="5">
+<br>
+<label>Choose color for Even position</label><br>
+<select id="colorEven">
+<option value="#0000FF">Blue</option>
+<option value="#FF0000">Red</option>
+<option value="#FF9900">Orange</option>
+</select><br>
+
+<label>Choose color for Odd position</label><br>
+<select id="colorOdd">
+<option value="#FF0099">Pink</option>
+<option value="#33FF00">Green</option>
+<option value="#660099">Purple</option>
+</select>
+<br>
+<label>Choose symbol for Rhombus</label>
+<select id="symbol">
+<option value="*">*</option>
+<option value="^">^</option>
+<option value="%">%</option>
+</select>
+
+<br>
+<button onclick="createRhombus(document.getElementById('rHeight').value,
+document.getElementById('colorEven').value,
+document.getElementById('colorOdd').value,
+document.getElementById('symbol').value);">Display Rhombus</button>
+</div>
+
+
+<div class= "content-rhombus">
+
+<div id="upLeft"></div>
+<div id="upRight"></div>
+
+<div class="clear"></div>
+
+
+<div id="downLeft"></div>
+<div id="downRight"></div>
+
+</div>
+<footer>
+
+<p><a href="https://validator.w3.org/" target="_blank"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5" title="HTML5"></a></p>
+
+    
+<p class="cs">
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+        </a>
+    </p>
+</footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
