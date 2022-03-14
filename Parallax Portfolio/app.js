@@ -210,3 +210,10 @@ function validateForm(event)
         return false;
     }
 }
+
+
+/* shsdfsdjl*/
+
+document.getElementById("resume").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/artifact01.html";
+}
