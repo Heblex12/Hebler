@@ -212,8 +212,87 @@ function validateForm(event)
 }
 
 
-/* shsdfsdjl*/
+/* Artifacts Links*/
 
 document.getElementById("resume").onclick = function() {
   location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/artifact01.html";
+  target = "_blank";
+}
+
+document.getElementById("chess").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/chess/chessboard.html";
+  target = "_blank";
+}
+
+document.getElementById("rhombus").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/Artifact%203/index.html";
+  target = "_blank";
+}
+
+document.getElementById("contact-val").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/art4/index.html";
+  target = "_blank";
+}
+
+document.getElementById("slide").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/Artifact%205/index.html";
+  target = "_blank";
+}
+
+/* End of Artifact Links*/
+
+/* Start of Module  Links*/
+
+
+
+document.getElementById("module-one").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/recipe.html";
+  target = "_blank";
+}
+
+document.getElementById("module-two").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/m02.html";
+  target = "_blank";
+}
+
+document.getElementById("module-three").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/mo3.html";
+  target = "_blank";
+}
+
+document.getElementById("module-four").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/m04.html";
+  target = "_blank";
+}
+
+document.getElementById("module-five").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/MO5/M05.html";
+  target = "_blank";
+}
+
+
+
+document.getElementById("module-six").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/artifact01.html";
+  target = "_blank";
+}
+
+document.getElementById("module-seven").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/Module%207/index.html";
+  target = "_blank";
+}
+
+document.getElementById("module-eight").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/Module%208/index.html";
+  target = "_blank";
+}
+
+document.getElementById("module-nine").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/Module%209/index.html";
+  target = "_blank";
+}
+
+document.getElementById("module-ten").onclick = function() {
+  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Modules/Module%2010.pdf";
+  target = "_blank";
 }
