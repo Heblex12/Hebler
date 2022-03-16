@@ -273,7 +273,7 @@ document.getElementById("module-five").onclick = function() {
 
 
 document.getElementById("module-six").onclick = function() {
-  location.href = "https://heblex12.github.io/Hebler/Parallax%20Portfolio/pages/Artifacts/artifact01.html";
+  location.href = "hebler_saucedo_final_part2.html";
   target = "_blank";
 }
 
