@@ -273,7 +273,7 @@ document.getElementById("module-five").onclick = function() {
 
 
 document.getElementById("module-six").onclick = function() {
-  location.href = "Hebler/hebler_saucedo_final_part2.html";
+  location.href = "hebler_saucedo_final_part2.html";
   target = "_blank";
 }
 
